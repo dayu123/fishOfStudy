@@ -1,0 +1,49 @@
+{
+    "author": "zsytssk@gmail.com",
+    "contributors": [],
+    "license": "UNLICENSED",
+    "name": "webpack_test",
+    "version": "1.0.0",
+    "private": true,
+    "main": "main.js",
+    "directories": {
+        "doc": "doc"
+    },
+    "scripts": {
+        "webpack-dev-server": "webpack-dev-server --ENV=DEV --mode development",
+        "webpack-dev": "webpack --ENV=DEV --mode development",
+        "webpack-dev-test": "webpack --ENV=TEST --mode development",
+        "webpack-prod": "webpack --ENV=PROD --mode production",
+        "webpack-prod-server": "webpack-dev-server --ENV=DEV --mode development",
+        "compressImg": "node ./script/compressImg/compressImg.js compressImg",
+        "genVersion": "node ./script/genVersion/genVersion.js genVersion"
+    },
+    "devDependencies": {
+        "ts-loader": "^6.0.4",
+        "typescript": "3.4.3",
+        "webpack": "^4.37.0",
+        "webpack-cli": "^3.3.6",
+        "webpack-dev-server": "^3.7.2"
+    },
+    "dependencies": {
+        "@types/bezier-js": "0.0.8",
+        "@types/js-base64": "^2.3.1",
+        "@types/sat": "0.0.30",
+        "@types/socket.io-client": "^1.4.32",
+        "bezier-js": "^2.4.4",
+        "es6-map": "^0.1.5",
+        "es6-promise": "^4.2.8",
+        "es6-set": "^0.1.5",
+        "js-base64": "^2.5.1",
+        "lodash": "^4.17.15",
+        "rxjs": "^6.5.3",
+        "sat": "^0.8.0",
+        "socket.io-client": "^2.3.0",
+        "tslint": "^5.18.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://172.21.1.184/ragnark/legend_demo.git"
+    },
+    "description": ""
+}
